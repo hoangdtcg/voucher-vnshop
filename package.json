@@ -29,7 +29,7 @@
     "webpack-merge": "4.1.5"
   },
   "scripts": {
-    "build": "npx babel src --out-dir \"dist\"",
+    "build": "npx babel src --out-dir \\\\\\\"dist\\\\\\\"",
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
