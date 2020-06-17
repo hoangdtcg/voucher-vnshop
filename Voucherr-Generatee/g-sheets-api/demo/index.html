@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>-->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!--    <script src="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"></script>-->
+  </head>
+  <style>
+    textarea,button{
+      margin-left: 15px;
+    }
+  </style>
+  <body>
+<!--  <input id="id-sheet" placeholder="Link file google sheet">-->
+  <p id="instruct">Cập nhật mã voucher vào cột user tại <a href="https://docs.google.com/spreadsheets/d/1FcOFqx8YAMatb2LzTxgatz1MIohsXEtiRE-_DCbqZwg/edit#gid=0">đây</a> link </p>
+  <textarea cols="40" rows="4" style="display: block" id="txt" placeholder="Mẫu câu..."></textarea>
+  <br>
+  <button>Generate</button>
+    <main id="output">
+      <table id="dataTable"></table>
+      <script type="module" src="index.js"></script>
+    </main>
+  </body>
+</html>
